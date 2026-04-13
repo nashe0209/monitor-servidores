@@ -2,7 +2,7 @@
 export default function ServerCard({ info }) {
   return (
     <div className="card">
-      <h3>Nombre : </h3>
+      <h3>Nombre: {info.nombre}</h3>
       <p><strong>Rol asignado:</strong> {info.rol}</p>
       
       {/* Renderizado condicional usando un operador ternario */}
